@@ -98,13 +98,9 @@ Training process includes:
 </table>
 </div>
 
-### 7. Feature Importance
-- Show the most important features for Decision Tree and Random Forest models.
-- Show important coefficients for Linear Regression.
-- Analyze the features that most influence price prediction.
 
 ## Key Findings
-- Linear Regression appears to perform best in terms of the lowest error on this dataset.
+- Decision Tree appears to perform best in terms of the lowest error on this dataset.
 - The `KOMODITAS` variable has a strong influence on price, as shown by feature importance analysis.
 - Import and export variables also contribute to price prediction.
 
