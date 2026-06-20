@@ -65,12 +65,38 @@ Training process includes:
 - Using `GridSearchCV` and `KFold` to find the best hyperparameters based on MAE.
 
 ### 6. Evaluation
-- Calculate and compare metrics:
-  - Mean Absolute Error (MAE)
-  - Mean Squared Error (MSE)
-  - R-squared (R2)
-- Visualize prediction results on the test set using line plots and scatter plots.
-- Summarize model comparisons.
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>MAE</th>
+      <th>MSE</th>
+      <th>R2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>DT</th>
+      <td>8461.302175</td>
+      <td>2.899358e+08</td>
+      <td>0.739133</td>
+    </tr>
+    <tr>
+      <th>RF</th>
+      <td>9220.851852</td>
+      <td>3.166336e+08</td>
+      <td>0.715112</td>
+    </tr>
+    <tr>
+      <th>LR</th>
+      <td>9312.410886</td>
+      <td>2.991141e+08</td>
+      <td>0.730875</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ### 7. Feature Importance
 - Show the most important features for Decision Tree and Random Forest models.
