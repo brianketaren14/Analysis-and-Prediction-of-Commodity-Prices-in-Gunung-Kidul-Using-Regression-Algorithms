@@ -96,7 +96,10 @@ Training process includes:
     </tr>
   </tbody>
 </table>
+<br>
 </div>
+
+<img width="1489" height="989" alt="image" src="https://github.com/user-attachments/assets/b90fade6-674e-4d32-a74c-0e4d0e20ffd1" />
 
 
 ## Key Findings
@@ -104,18 +107,3 @@ Training process includes:
 - The `KOMODITAS` variable has a strong influence on price, as shown by feature importance analysis.
 - Import and export variables also contribute to price prediction.
 
-## How to Run
-1. Open the notebook file `Analysis and Prediction of Commodity Prices in Gunung Kidul Using Regression Algorithms.ipynb`.
-2. Run all cells in order.
-3. Ensure the required Python dependencies are installed:
-   - `pandas`
-   - `numpy`
-   - `matplotlib`
-   - `seaborn`
-   - `scikit-learn`
-   - `scipy`
-
-## Notes
-- The dataset has different file formats between months, so preprocessing is needed to standardize columns and data structure.
-- Significant outliers influenced the choice of scaler (`RobustScaler`).
-- This analysis enhances understanding of the relationship between price and input variables, especially commodity and trade-related features.
